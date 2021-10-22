@@ -12,6 +12,7 @@ function App() {
         {emojis.map(emoji => {
           return (
             <Card
+              key={emoji.id}
               emoji={emoji.emoji}
               ename={emoji.name}
               edisc={emoji.meaning}
